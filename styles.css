@@ -1,0 +1,355 @@
+.opening-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.opening-question {
+  position: relative;
+  height: 8%;
+  text-align: center;
+  color: aliceblue;
+  top: 35%;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.opening-answer-container {
+  position: relative;
+  height: 8%;
+  top: 50%;
+}
+
+.opening-answer-yes {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  left: 40%;
+  width: 5%;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-underline-position: below;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.opening-answer-no {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 5%;
+  left: 50%;
+  text-decoration: underline;
+  text-underline-position: below;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a, a:link, a:visited  {
+  color: aliceblue;
+}
+
+.ending-text {
+  position: relative;
+  text-align: center;
+  top: 35%;
+  height: 8%;
+  color: aliceblue;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+#main-body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: black;
+}
+
+#main-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#main-content {
+  position: relative;
+  width: 100%;
+  height: 1800%;
+}
+
+#main-empty-content {
+  position: relative;
+  width: 100%;
+  height: 65%;
+}
+
+#main-animation-content {
+  position: relative;
+  width: 100%;
+  height: 35%;
+}
+
+#main-catalog-content, 
+#main-packing-content, 
+#main-description-content, 
+#main-about-content, 
+#main-contact-content {
+  position: relative;
+  width: 100%;
+  height: 18%;
+}
+
+.main-gap {
+  position: relative;
+  width: 100%;
+  height: 10%;
+}
+
+.main-catalog-left, .main-catalog-right {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  outline: 0;
+}
+
+.main-catalog-left {
+  width: 60%;
+  float: left;
+}
+
+.main-catalog-right {
+  width: 40%;
+  float: right;
+}
+
+.main-catalog-text {
+  position: absolute;
+  left: 35%;
+  top: 35%;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+.main-catalog-right-top {
+  position: relative;
+  height: 60%;
+  width: 100%;
+}
+
+.main-catalog-right-bottom {
+  position: relative;
+  height: 40%;
+  width: 100%;
+}
+
+.main-catalog-right-item {
+  position: relative;
+  display: inline-block;
+  margin: 5%;
+  height: 100%;
+  width: 25%;
+}
+
+.main-catalog-img-bottle {
+  position: relative;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+}
+
+.main-catalog-img-percent {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 0;
+}
+
+.main-description-left {
+  position: relative;
+  height: 100%;
+  width: 40%;
+}
+
+.main-description-left-bottles {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  float: right;
+}
+
+.main-description-left-bottles-item {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 49%;
+  height: 100%;
+}
+
+.main-description-img-black {
+  position: absolute;
+  height: 45%;
+  width: auto;
+  top: 30%;
+  left: 15%;
+}
+
+.main-description-img-white {
+  position: absolute;
+  height: 45%;
+  width: auto;
+  top: 30%;
+  left: 30%;
+}
+
+.main-description-list {
+  position: absolute;
+  height: 45%;
+  width: auto;
+  top: 43%;
+  font-size: 20px;
+  left: 60%;
+}
+
+.main-description-img {
+  position: relative;
+  top: 30%;
+  width: 90%;
+  height: auto;
+}
+
+.main-packing-top {
+  position: absolute;
+  top: 22%;
+  width: 100%;
+  height: 43%;
+}
+
+.main-packing-img {
+  position: absolute;
+  bottom: 0;
+  width: auto;
+}
+
+.main-packing-img-1 {
+  height: 83%;
+  left: 23%;
+}
+
+.main-packing-img-2 {
+  height: 83%;
+  left: 27%;
+}
+
+.main-packing-img-3 {
+  height: 100%;
+  left: 45%;
+}
+
+.main-packing-img-4 {
+  height: 100%;
+  left: 61%;
+}
+
+.main-packing-img-5 {
+  height: 100%;
+  left: 77%;
+}
+
+.main-about-point {
+  position: absolute;
+  left: 13%;
+  top: 13%;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+  color: #AC5B46;
+}
+
+.main-about-text-header {
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  color: white;
+}
+
+.main-about-text-description {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  color: white;
+}
+
+
+
+
+
+
+
+
+.main-description-img-below {
+  position: relative;
+  margin-top: 35%;
+  margin-right: 5%;
+  height: 50%;
+  width: auto;
+  float: right;
+}
+
+.main-description-img-above {
+  position: absolute;
+  margin-top: 35%;
+  right: 13%;
+  height: 50%;
+  width: auto;
+  float: right;
+}
+
+.main-control-panel {
+  position: fixed;
+  width: 96%;
+  height: 7%;
+  bottom: 3%;
+  left: 2%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.main-control-panel-item {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+}
+
+#main-video {
+  position: fixed;
+  height: 100%;
+  width: auto;
+  left: 5%
+}
